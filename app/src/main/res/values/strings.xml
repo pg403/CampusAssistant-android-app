@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CampusAssistant</string>
+    <string name="name_editText">Enter your Email</string>
+    <string name="password_editText">Enter your Password</string>
+    <string name="registor_textView">Create an account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cancle">cancel</string>
+    <string name="finish">finish</string>
+    <string name="menu_settings">settings</string>
+    <string name="set">set</string>
+    <string name="message_set">message settings</string>
+    <string name="quiet">quiet mode</string>
+    <string name="remind">vibrate before class</string>
+    <string name="about_app">about</string>
+    <string name="revision">version</string>
+    <string name="us">about us</string>
+    <string name="heading">class schedule information</string>
+    <string name="exit">exit</string>
+    <string name="back">back</string>
+    <string name="edit_title">course informaiton</string>
+    <string name="course_name">Course：</string>
+    <string name="course_address">Location：</string>
+    <string name="course_teacher">Instructors：</string>
+    <string name="course_time">Time：</string>
+    <string name="input_course_name">Input course name</string>
+    <string name="input_course_address">Input course location</string>
+    <string name="input_course_teacher">Input instructors</string>
+    <string name="to">to</string>
+    <string name="jieshulimit">1 2 3 4</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

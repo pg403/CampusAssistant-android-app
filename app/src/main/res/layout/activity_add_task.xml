@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simon.campusassistant.AddTaskActivity">
+
+    <EditText
+        android:id="@+id/editTextToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="what do you want to do"
+        android:inputType="textPersonName" />
+
+
+    <LinearLayout
+        android:layout_marginStart="30dp"
+        android:id="@+id/ll_date"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/editTextToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the Date:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:background="#ededed"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ll_time"
+        android:layout_below="@+id/ll_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the Time:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ll_time"
+            android:layout_alignTop="@+id/ll_date"
+            android:background="#ededed"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:gravity="center"
+        android:layout_below="@+id/ll_time"
+        android:id="@+id/editTextLocation"
+        android:hint="Location"/>
+
+
+    <Button
+        android:id="@+id/buttonAdd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ll_time"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="add" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/editTextLocation"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:text="SET ALARM: "
+        android:id="@+id/textView3" />
+
+    <Switch
+        android:id="@+id/open"
+        android:checked="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:textOff="Disable Alarm"
+        android:textOn="Enable Alarm" />
+
+</RelativeLayout>

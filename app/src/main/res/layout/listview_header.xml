@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	<ImageView 
+	    android:id="@+id/layout_header_image"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/size_default_height"
+	    android:scaleType="centerCrop"
+	    android:src="@drawable/img_header"
+	    />
+
+
+	<TextView
+		android:id="@+id/welcome_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/layout_header_image"
+		android:layout_alignParentStart="true"
+		android:layout_marginBottom="70dp"
+		android:layout_marginStart="30dp"
+		android:textColor="@android:color/white"
+		android:text="Welcome!"
+		android:textSize="50sp"/>
+
+	<TextView
+		android:id="@+id/date_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/layout_header_image"
+		android:layout_alignParentEnd="true"
+		android:layout_marginBottom="18dp"
+		android:layout_marginEnd="27dp"
+		android:textColor="@android:color/white"
+		android:text=""
+		android:textSize="25sp"/>
+
+	<TextView
+		android:id="@+id/weekday_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/date_text"
+		android:layout_marginEnd="20dp"
+		android:layout_toStartOf="@+id/date_text"
+		android:textColor="@android:color/white"
+		android:text=""
+		android:textSize="25sp"/>
+</RelativeLayout>

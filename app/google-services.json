@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "8453205805",
+    "firebase_url": "https://campusassistant-1ee6f.firebaseio.com",
+    "project_id": "campusassistant-1ee6f",
+    "storage_bucket": "campusassistant-1ee6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8453205805:android:283be181d92bec86",
+        "android_client_info": {
+          "package_name": "com.example.simon.campusassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8453205805-54v3qd3pihvbvfi9ikv39b23dntv1lra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw99bU_MHNjhq_lVWWmtIMrBVEAKZ5x6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
